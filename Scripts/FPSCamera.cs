@@ -3,33 +3,34 @@ using System.Collections;
 
 public class FPSCamera : MonoBehaviour {
 
-	Vector2 mouseLook;
-	Vector2 smoothV;
-	public float sensitivity = 5f;
-	public float smoothing = 2f;
+	public float mouseSense = 10.0f;
 
-	GameObject player;
+
+	private Camera FPS;
+	private CharacterController cc;
+	private GameObject player;
+
 
 	// Use this for initialization
 	void Start () {
-		player = this.transform.parent.gameObject;
+		//player = this.transform.parent.gameObject;
+		cc = GetComponent <CharacterController> ();
+		FPS = GameObject.Find ("FPSCamera").GetComponent <Camera> ();
 	}
+
+
+
 
 	// Update is called once per frame
 	void Update () {
-		var md = new Vector2 (Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+		//Rotation
+		float rotX = Input.GetAxis ("Right X") * mouseSense;
 
-		md = Vector2.Scale(md, new Vector2(sensitivity * smoothing, sensitivity * smoothing));
-		smoothV.x = Mathf.Lerp (smoothV.x, md.x, 1f / smoothing);
-		smoothV.y = Mathf.Lerp (smoothV.y, md.y, 1f / smoothing);
-		mouseLook += smoothV;
-		mouseLook.y = Mathf.Clamp (mouseLook.y,-90f,90f);
+		rotX = Mathf.Clamp (rotX, -50,50);
+		FPS.transform.Rotate (0,rotX,0);
 
-
+			
 
 
-
-		transform.localRotation = Quaternion.AngleAxis(-mouseLook.y, Vector3.right);
-		player.transform.localRotation = Quaternion.AngleAxis (mouseLook.x, player.transform.up);
 	}
 }

@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: bc4f0409b2f684cf2ab5ff6bd33fb4d1
+timeCreated: 1481527605
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Abdome
+    100002: Calf.L
+    100004: Calf.L_end
+    100006: Calf.R
+    100008: Calf.R_end
+    100010: Chest
+    100012: Chest.L
+    100014: Chest.R
+    100016: DragonBrandChimera
+    100018: //RootNode
+    100020: FCalf.L
+    100022: FCalf.L_end
+    100024: FCalf.R
+    100026: FCalf.R_end
+    100028: FFoot.L
+    100030: FFoot.L_end
+    100032: FFoot.R
+    100034: FFoot.R_end
+    100036: FLeg ik.L
+    100038: FLeg ik.L_end
+    100040: FLeg ik.R
+    100042: FLeg ik.R_end
+    100044: FLegControl.L
+    100046: FLegControl.R
+    100048: FLegTarget.L
+    100050: FLegTarget.L_end
+    100052: FLegTarget.R
+    100054: FLegTarget.R_end
+    100056: Foot.L
+    100058: Foot.L_end
+    100060: Foot.R
+    100062: Foot.R_end
+    100064: FShin.L
+    100066: FShin.R
+    100068: Hip.L
+    100070: Hip.R
+    100072: Hip2.L
+    100074: Hip2.R
+    100076: LowerBack
+    100078: LowerSpine
+    100080: LowerTail
+    100082: MidTail
+    100084: Neck
+    100086: Neck_end
+    100088: RControl.L
+    100090: RControl.R
+    100092: RLegControl ik.L
+    100094: RLegControl ik.L_end
+    100096: RLegControl ik.R
+    100098: RLegControl ik.R_end
+    100100: RLegTarget.L
+    100102: RLegTarget.L_end
+    100104: RLegTarget.R
+    100106: RLegTarget.R_end
+    100108: Shin.L
+    100110: Shin.R
+    100112: Sholulder.L
+    100114: Sholulder.R
+    100116: SnakeHead
+    100118: SnakeHead_end
+    100120: Spine
+    100122: Thigh.L
+    100124: Thigh.R
+    400000: Abdome
+    400002: Calf.L
+    400004: Calf.L_end
+    400006: Calf.R
+    400008: Calf.R_end
+    400010: Chest
+    400012: Chest.L
+    400014: Chest.R
+    400016: DragonBrandChimera
+    400018: //RootNode
+    400020: FCalf.L
+    400022: FCalf.L_end
+    400024: FCalf.R
+    400026: FCalf.R_end
+    400028: FFoot.L
+    400030: FFoot.L_end
+    400032: FFoot.R
+    400034: FFoot.R_end
+    400036: FLeg ik.L
+    400038: FLeg ik.L_end
+    400040: FLeg ik.R
+    400042: FLeg ik.R_end
+    400044: FLegControl.L
+    400046: FLegControl.R
+    400048: FLegTarget.L
+    400050: FLegTarget.L_end
+    400052: FLegTarget.R
+    400054: FLegTarget.R_end
+    400056: Foot.L
+    400058: Foot.L_end
+    400060: Foot.R
+    400062: Foot.R_end
+    400064: FShin.L
+    400066: FShin.R
+    400068: Hip.L
+    400070: Hip.R
+    400072: Hip2.L
+    400074: Hip2.R
+    400076: LowerBack
+    400078: LowerSpine
+    400080: LowerTail
+    400082: MidTail
+    400084: Neck
+    400086: Neck_end
+    400088: RControl.L
+    400090: RControl.R
+    400092: RLegControl ik.L
+    400094: RLegControl ik.L_end
+    400096: RLegControl ik.R
+    400098: RLegControl ik.R_end
+    400100: RLegTarget.L
+    400102: RLegTarget.L_end
+    400104: RLegTarget.R
+    400106: RLegTarget.R_end
+    400108: Shin.L
+    400110: Shin.R
+    400112: Sholulder.L
+    400114: Sholulder.R
+    400116: SnakeHead
+    400118: SnakeHead_end
+    400120: Spine
+    400122: Thigh.L
+    400124: Thigh.R
+    4300000: DragonBrandChimera
+    7400000: Spine|Idle
+    7400002: Spine|Jump
+    7400004: Spine|Rest
+    7400006: Spine|Run
+    7400008: Spine|Walk
+    9500000: //RootNode
+    13700000: DragonBrandChimera
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Spine|Idle
+      takeName: Spine|Idle
+      firstFrame: 1
+      lastFrame: 335
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonBrandChimera
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/FLegControl.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L/FFoot.L_end
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L/FLeg ik.L_end
+        weight: 1
+      - path: Spine/FLegControl.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R/FFoot.R_end
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R/FLeg ik.R_end
+        weight: 1
+      - path: Spine/FLegTarget.L
+        weight: 1
+      - path: Spine/FLegTarget.L/FLegTarget.L_end
+        weight: 1
+      - path: Spine/FLegTarget.R
+        weight: 1
+      - path: Spine/FLegTarget.R/FLegTarget.R_end
+        weight: 1
+      - path: Spine/LowerBack
+        weight: 1
+      - path: Spine/LowerBack/Chest.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L/FCalf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Chest.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R/FCalf.R_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L/Calf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R/Calf.R_end
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck/Neck_end
+        weight: 1
+      - path: Spine/LowerBack/LowerTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead/SnakeHead_end
+        weight: 1
+      - path: Spine/RControl.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L/RLegControl ik.L_end
+        weight: 1
+      - path: Spine/RControl.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R/RLegControl ik.R_end
+        weight: 1
+      - path: Spine/RLegTarget.L
+        weight: 1
+      - path: Spine/RLegTarget.L/RLegTarget.L_end
+        weight: 1
+      - path: Spine/RLegTarget.R
+        weight: 1
+      - path: Spine/RLegTarget.R/RLegTarget.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spine|Jump
+      takeName: Spine|Jump
+      firstFrame: 16
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonBrandChimera
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/FLegControl.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L/FFoot.L_end
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L/FLeg ik.L_end
+        weight: 1
+      - path: Spine/FLegControl.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R/FFoot.R_end
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R/FLeg ik.R_end
+        weight: 1
+      - path: Spine/FLegTarget.L
+        weight: 1
+      - path: Spine/FLegTarget.L/FLegTarget.L_end
+        weight: 1
+      - path: Spine/FLegTarget.R
+        weight: 1
+      - path: Spine/FLegTarget.R/FLegTarget.R_end
+        weight: 1
+      - path: Spine/LowerBack
+        weight: 1
+      - path: Spine/LowerBack/Chest.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L/FCalf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Chest.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R/FCalf.R_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L/Calf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R/Calf.R_end
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck/Neck_end
+        weight: 1
+      - path: Spine/LowerBack/LowerTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead/SnakeHead_end
+        weight: 1
+      - path: Spine/RControl.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L/RLegControl ik.L_end
+        weight: 1
+      - path: Spine/RControl.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R/RLegControl ik.R_end
+        weight: 1
+      - path: Spine/RLegTarget.L
+        weight: 1
+      - path: Spine/RLegTarget.L/RLegTarget.L_end
+        weight: 1
+      - path: Spine/RLegTarget.R
+        weight: 1
+      - path: Spine/RLegTarget.R/RLegTarget.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spine|Rest
+      takeName: Spine|Rest
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonBrandChimera
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/FLegControl.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L/FFoot.L_end
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L/FLeg ik.L_end
+        weight: 1
+      - path: Spine/FLegControl.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R/FFoot.R_end
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R/FLeg ik.R_end
+        weight: 1
+      - path: Spine/FLegTarget.L
+        weight: 1
+      - path: Spine/FLegTarget.L/FLegTarget.L_end
+        weight: 1
+      - path: Spine/FLegTarget.R
+        weight: 1
+      - path: Spine/FLegTarget.R/FLegTarget.R_end
+        weight: 1
+      - path: Spine/LowerBack
+        weight: 1
+      - path: Spine/LowerBack/Chest.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L/FCalf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Chest.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R/FCalf.R_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L/Calf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R/Calf.R_end
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck/Neck_end
+        weight: 1
+      - path: Spine/LowerBack/LowerTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead/SnakeHead_end
+        weight: 1
+      - path: Spine/RControl.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L/RLegControl ik.L_end
+        weight: 1
+      - path: Spine/RControl.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R/RLegControl ik.R_end
+        weight: 1
+      - path: Spine/RLegTarget.L
+        weight: 1
+      - path: Spine/RLegTarget.L/RLegTarget.L_end
+        weight: 1
+      - path: Spine/RLegTarget.R
+        weight: 1
+      - path: Spine/RLegTarget.R/RLegTarget.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spine|Run
+      takeName: Spine|Run
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonBrandChimera
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/FLegControl.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L/FFoot.L_end
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L/FLeg ik.L_end
+        weight: 1
+      - path: Spine/FLegControl.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R/FFoot.R_end
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R/FLeg ik.R_end
+        weight: 1
+      - path: Spine/FLegTarget.L
+        weight: 1
+      - path: Spine/FLegTarget.L/FLegTarget.L_end
+        weight: 1
+      - path: Spine/FLegTarget.R
+        weight: 1
+      - path: Spine/FLegTarget.R/FLegTarget.R_end
+        weight: 1
+      - path: Spine/LowerBack
+        weight: 1
+      - path: Spine/LowerBack/Chest.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L/FCalf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Chest.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R/FCalf.R_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L/Calf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R/Calf.R_end
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck/Neck_end
+        weight: 1
+      - path: Spine/LowerBack/LowerTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead/SnakeHead_end
+        weight: 1
+      - path: Spine/RControl.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L/RLegControl ik.L_end
+        weight: 1
+      - path: Spine/RControl.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R/RLegControl ik.R_end
+        weight: 1
+      - path: Spine/RLegTarget.L
+        weight: 1
+      - path: Spine/RLegTarget.L/RLegTarget.L_end
+        weight: 1
+      - path: Spine/RLegTarget.R
+        weight: 1
+      - path: Spine/RLegTarget.R/RLegTarget.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spine|Walk
+      takeName: Spine|Walk
+      firstFrame: 16
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonBrandChimera
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/FLegControl.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L
+        weight: 1
+      - path: Spine/FLegControl.L/FFoot.L/FFoot.L_end
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L
+        weight: 1
+      - path: Spine/FLegControl.L/FLeg ik.L/FLeg ik.L_end
+        weight: 1
+      - path: Spine/FLegControl.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R
+        weight: 1
+      - path: Spine/FLegControl.R/FFoot.R/FFoot.R_end
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R
+        weight: 1
+      - path: Spine/FLegControl.R/FLeg ik.R/FLeg ik.R_end
+        weight: 1
+      - path: Spine/FLegTarget.L
+        weight: 1
+      - path: Spine/FLegTarget.L/FLegTarget.L_end
+        weight: 1
+      - path: Spine/FLegTarget.R
+        weight: 1
+      - path: Spine/FLegTarget.R/FLegTarget.R_end
+        weight: 1
+      - path: Spine/LowerBack
+        weight: 1
+      - path: Spine/LowerBack/Chest.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L
+        weight: 1
+      - path: Spine/LowerBack/Chest.L/Sholulder.L/FShin.L/FCalf.L/FCalf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Chest.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R
+        weight: 1
+      - path: Spine/LowerBack/Chest.R/Sholulder.R/FShin.R/FCalf.R/FCalf.R_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L
+        weight: 1
+      - path: Spine/LowerBack/Hip.L/Hip2.L/Thigh.L/Shin.L/Calf.L/Calf.L_end
+        weight: 1
+      - path: Spine/LowerBack/Hip.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R
+        weight: 1
+      - path: Spine/LowerBack/Hip.R/Hip2.R/Thigh.R/Shin.R/Calf.R/Calf.R_end
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck
+        weight: 1
+      - path: Spine/LowerBack/LowerSpine/Abdome/Chest/Neck/Neck_end
+        weight: 1
+      - path: Spine/LowerBack/LowerTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead
+        weight: 1
+      - path: Spine/LowerBack/LowerTail/MidTail/SnakeHead/SnakeHead_end
+        weight: 1
+      - path: Spine/RControl.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L
+        weight: 1
+      - path: Spine/RControl.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L
+        weight: 1
+      - path: Spine/RControl.L/RLegControl ik.L/RLegControl ik.L_end
+        weight: 1
+      - path: Spine/RControl.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R
+        weight: 1
+      - path: Spine/RControl.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R
+        weight: 1
+      - path: Spine/RControl.R/RLegControl ik.R/RLegControl ik.R_end
+        weight: 1
+      - path: Spine/RLegTarget.L
+        weight: 1
+      - path: Spine/RLegTarget.L/RLegTarget.L_end
+        weight: 1
+      - path: Spine/RLegTarget.R
+        weight: 1
+      - path: Spine/RLegTarget.R/RLegTarget.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

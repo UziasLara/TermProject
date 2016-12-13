@@ -21,6 +21,10 @@ public class PlayerController : MonoBehaviour {
 	private float timer;
 	private bool over = false;
 	private CharacterController player;
+	private Animator anim;
+	private float readyJump =3.0f;
+	//private AnimatorControllerParameter jumpAnim;
+
 
 
 	void Start () {
@@ -29,6 +33,7 @@ public class PlayerController : MonoBehaviour {
 
 		player = GetComponent<CharacterController> ();
 
+		anim = gameObject.GetComponent<Animator> ();
 
 		winText.text = "";
 		count = 0;
@@ -43,17 +48,28 @@ public class PlayerController : MonoBehaviour {
 
 
 	void Update() {
-		//transform.Rotate(0,90,0);
+		playerMovement ();
 
-		//player.Move ((Vector3.forward * speed) * Time.deltaTime);
+
+	}
+
+	void playerMovement() {
+		
+
 		if (player.isGrounded) {
-			
+
 			moveDirection = new Vector3 (Input.GetAxis ("Horizontal"), 0, Input.GetAxis ("Vertical"));
 			moveDirection = transform.TransformDirection (moveDirection);
 			moveDirection *= speed;
 
-			if (Input.GetButton ("Jump"))
-				moveDirection.y = jumpSpeed;
+			if (Input.GetButton ("Jump")) {
+				anim.speed = 2;
+				anim.Play ("Spine|Jump");
+				if (Time.time > readyJump) {
+					
+					moveDirection.y = jumpSpeed;
+				}
+			} 
 		}	
 		moveDirection.y -= gravity * Time.deltaTime;
 		player.Move (moveDirection * Time.deltaTime);
@@ -61,35 +77,23 @@ public class PlayerController : MonoBehaviour {
 
 		if (over)
 			return;
-		/*
-		float translation = Input.GetAxis("Vertical") * speed;
-		float straffe = Input.GetAxis("Horizontal") * speed;
-		translation *= Time.deltaTime;
-		straffe *= Time.deltaTime;
-
-		transform.Translate(straffe,0,translation);
-
-		*/
-
-
-
-
-		// change speed
-		//if (Input.GetButton ("Fire1"))
-	//		speed = 50.0f;
 		
-		if (Input.GetKeyDown (KeyCode.JoystickButton8) | Input.GetKeyDown(KeyCode.LeftShift)) {
+
+		// Sprint
+		if (Input.GetKeyDown (KeyCode.JoystickButton8) | Input.GetKeyDown(KeyCode.LeftShift) | Input.GetButtonDown ("LeftClick") ) {
 			speed = 30f;
+			anim.speed = 2;
+			anim.Play ("Spine|Walk");
 		}
 
-		if (Input.GetKeyUp (KeyCode.JoystickButton8) || Input.GetKeyUp(KeyCode.LeftShift)) {
+		if (Input.GetKeyUp (KeyCode.JoystickButton8) || Input.GetKeyUp(KeyCode.LeftShift) | Input.GetButtonUp ("LeftClick")) {
 			speed = 10f;
+			//anim.speed = 2;
+			anim.StopPlayback ();
 		}
-		
+
 		if (Input.GetKeyDown ("escape"))
 			Cursor.lockState = CursorLockMode.None;
-
-
 	}
 
 	void OnTriggerEnter(Collider other) {
