@@ -5,8 +5,8 @@ public class FootSteps : MonoBehaviour {
 
 
 	public AudioSource footSteps;
-	public AudioClip highStep;
-	public AudioClip lowStep;
+	//public AudioClip highStep;
+	//public AudioClip lowStep;
 
 	private CharacterController player;
 

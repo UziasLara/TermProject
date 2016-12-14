@@ -5,8 +5,11 @@ public class FPSCameraController : MonoBehaviour {
 
 	Vector2 mouseLook;
 	Vector2 smoothV;
-	public float sensitivity = 20f;
-	public float smoothing = 5f;
+	private float sensitivity = 5f;
+	private float smoothing = 2f;
+
+	private float joySense = 50f;
+	private float joySmooth = 10f;
 
 	GameObject player;
 
@@ -42,11 +45,18 @@ public class FPSCameraController : MonoBehaviour {
 
 	// Look with joystick
 	void joystickLook() {
-		var md = new Vector2 (Input.GetAxis("Right X"), Input.GetAxis("Right Y"));
 
-		md = Vector2.Scale(md, new Vector2(sensitivity * smoothing, sensitivity * smoothing));
-		smoothV.x = Mathf.Lerp (smoothV.x, md.x, 1f / smoothing);
-		smoothV.y = Mathf.Lerp (smoothV.y, md.y, 1f / smoothing);
+		float moveX = Input.GetAxis ("Right X");
+		float moveZ = Input.GetAxis ("Right Y");
+
+
+	
+
+		var md = new Vector2 (moveX, moveZ);
+
+		md = Vector2.Scale(md, new Vector2(joySense * joySmooth, joySense * joySmooth));
+		smoothV.x = Mathf.Lerp (smoothV.x, md.x, 1f / joySmooth);
+		smoothV.y = Mathf.Lerp (smoothV.y, md.y, 1f / joySmooth);
 		mouseLook += smoothV;
 		mouseLook.y = Mathf.Clamp (mouseLook.y,-90f,90f);
 

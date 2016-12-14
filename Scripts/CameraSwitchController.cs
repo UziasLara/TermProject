@@ -21,7 +21,7 @@ public class CameraSwitchController : MonoBehaviour {
 
 	private void SwitchCamera() {
 		
-		if(Input.GetKeyDown (KeyCode.JoystickButton6)) {
+		if(Input.GetKeyDown (KeyCode.JoystickButton6) | Input.GetKeyDown(KeyCode.Tab)) {
 			FPS.enabled = !FPS.enabled;
 			TPS.enabled = !FPS.enabled;
 		}

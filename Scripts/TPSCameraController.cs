@@ -18,8 +18,7 @@ public class TPSCameraController : MonoBehaviour {
 	//private float sideDistance = 10.0f;
 	private float currentX = 0.0f;
 	private float currentY = 0.0f;
-	private float sensitivityX = 4.0f;
-	private float sensitivityY = 1.0f;
+
 	private Transform follow; 
 	private Vector3 targetPosition;
 
